@@ -40,13 +40,13 @@ const Skills = () => {
         <Skill name="CSS" x="-5vw" y="-10vw" />
         <Skill name="JavaScript" x="20vw" y="6vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="NextJS" x="-20vw" y="-15vw" />
+        <Skill name="NodeJS" x="-20vw" y="-15vw" />
         <Skill name="Blockchain" x="15vw" y="-12vw" />
         <Skill name="Web3.js" x="32vw" y="-5vw" />
-        <Skill name="Ethereum" x="-25vw" y="18vw" />
-        <Skill name="Tailwind CSS" x="18vw" y="18vw" />
-        <Skill name="Stacks" x="0vw" y="-20vw" />
-        <Skill name="Chromia" x="-32vw" y="4vw" />
+        <Skill name="MongoDB" x="-25vw" y="18vw" />
+        <Skill name="MySQL" x="18vw" y="18vw" />
+        <Skill name="Python" x="0vw" y="-20vw" />
+        <Skill name="Java" x="-32vw" y="4vw" />
       </div>
     </>
   );

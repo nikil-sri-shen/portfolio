@@ -53,23 +53,28 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m Nikil Sri Shen, a web developer with a passion for
-                blockchain technology and creating beautiful, functional, and
-                user-centered digital experiences. With 3 years of experience in
-                the field, I am constantly exploring new and innovative ways to
-                bring ideas to life.
+                Hi, I&apos;m Nikil Sri Shen, currently working as a Software
+                Engineer at Cisco and formerly a Blockchain Developer. With over
+                3 years of experience, I am passionate about solving complex
+                problems and creating seamless, user-centered digital solutions.
               </p>
               <p className="my-4 font-medium">
-                I believe that design and development are about more than just
-                aesthetics – they&apos;re about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                My journey began in blockchain development, where I specialized
+                in building secure and innovative smart contracts. Now, as a
+                Software Engineer, I focus on crafting efficient, scalable
+                software and enhancing user experiences across diverse projects.
               </p>
               <p className="font-medium">
-                Whether working on websites or other digital products, I bring
-                my commitment to development excellence and user-centered
-                thinking to every project. I&apos;m excited to continue
-                leveraging my skills and passion in future endeavors and
-                collaborations.
+                I believe development is more than just code—it&apos;s about
+                innovation, functionality, and delivering value to users.
+                Whether it&apos;s designing intuitive interfaces or engineering
+                robust backends, I bring a commitment to excellence and a
+                user-first approach to every task.
+              </p>
+              <p className="my-4 font-medium">
+                I&apos;m eager to keep exploring new technologies and
+                collaborating on impactful projects that push boundaries and
+                inspire creativity.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
@@ -85,7 +90,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={2} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   ongoing research

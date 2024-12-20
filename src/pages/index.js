@@ -35,10 +35,10 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled web3 full-stack developer, I am dedicated to
-                turning ideas into innovative web3 applications. Explore my
-                latest projects and articles, showcasing my expertise in
-                blockchain and web development.
+                As a dedicated Software Engineer, I specialize in crafting
+                efficient and innovative software solutions. Explore my latest
+                projects and articles to see my expertise in full-stack
+                development and problem-solving in action.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe />
+        {/* <HireMe /> */}
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={lightBulb} alt="NikilSriShen" className="w-full h-auto" />
         </div>

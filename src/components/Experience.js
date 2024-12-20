@@ -56,10 +56,20 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
+            position={"Software Engineer"}
+            company={"Cisco Systems (India) Private Limited"}
+            companyLink={"https://www.cisco.com/site/in/en/index.html"}
+            time={"2024-present"}
+            address={"Bengaluru, Karnataka"}
+            work={
+              "At Cisco, I work as a Full Stack Software Engineer, leveraging technologies like Python, Java, and Kotlin to develop and maintain robust applications. My role focuses on building efficient software solutions and implementing automation testing frameworks to ensure quality and reliability. As an early-career professional, I am constantly learning and growing, honing my skills in full-stack development while contributing to innovative projects that drive impact."
+            }
+          />
+          <Details
             position={"Web3 Full Stack Developer"}
             company={"CrypticOcean Technologies Pvt. Ltd."}
             companyLink={"https://crypticocean.com/"}
-            time={"2024-present"}
+            time={"2024"}
             address={"Noida, Uttar Pradesh"}
             work={
               "Collaborated on a dedicated team to develop and enhance the Vesting Application on the Stacks blockchain, utilizing the Clarity programming language. Responsibilities included designing and implementing new features, improving application security, and ensuring robust performance and reliability. Contributed to the continuous improvement of the platform by addressing vulnerabilities, optimizing code, and integrating advanced functionalities."
