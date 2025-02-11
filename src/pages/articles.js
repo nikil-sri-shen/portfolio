@@ -8,6 +8,7 @@ import articlePic1 from "../../public/images/articles/COVER.jpg";
 import articlePic2 from "../../public/images/articles/Navigating the Decentralized Cosmos IPFS Storage with Helia Implementation in Node.js.jpg";
 import articlePic3 from "../../public/images/articles/What is Mining in Blockchain.jpg";
 import articlePic4 from "../../public/images/articles/What is Blockchain.jpg";
+import articlePic5 from "../../public/images/articles/HyperJots A Blockchain-Based Notes App for Secure Departmental Sharing.jpg";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -118,6 +119,19 @@ const articles = () => {
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               title={
+                "🚀 HyperJots: A 🛡️ Blockchain-Based Notes App for 🔒 Secure Departmental Sharing"
+              }
+              time={"15 min read"}
+              summary={
+                "HyperJots is a blockchain-based secure note-sharing platform built on Hyperledger Fabric. It ensures private, tamper-proof note management for organizations, leveraging ReactJS for the frontend, Node.js for the backend, and smart contracts for secure data handling."
+              }
+              link={
+                "https://blogchaindaily.wordpress.com/2025/02/10/%f0%9f%9a%80-hyperjots-a-%f0%9f%9b%a1%ef%b8%8f-blockchain-based-notes-app-for-%f0%9f%94%92-secure-departmental-sharing/"
+              }
+              img={articlePic5}
+            />
+            <FeaturedArticle
+              title={
                 "Decoding Web3.js: A Practical Handbook 📖 for Compiling and Deploying Smart Contracts on Ethereum 🚀✨"
               }
               time={"15 min read"}
@@ -129,24 +143,21 @@ const articles = () => {
               }
               img={articlePic1}
             />
-            <FeaturedArticle
-              title={
-                "🌐 Navigating the Decentralized Cosmos: IPFS Storage with Helia Implementation in Node.js"
-              }
-              time={"10 min read"}
-              summary={
-                "We embark on a journey into the InterPlanetary File System (IPFS) realm, discovering how to harness the power of decentralized and distributed file storage with the Helia implementation in Node.js."
-              }
-              link={
-                "https://blogchaindaily.wordpress.com/2023/12/29/%f0%9f%8c%90-navigating-the-decentralized-cosmos-ipfs-storage-with-helia-implementation-in-node-js/"
-              }
-              img={articlePic2}
-            />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
             All Articles
           </h2>
           <ul>
+            <Article
+              title={
+                "🌐 Navigating the Decentralized Cosmos: IPFS Storage with Helia Implementation in Node.js"
+              }
+              img={articlePic2}
+              date={"December 29, 2023"}
+              link={
+                "https://blogchaindaily.wordpress.com/2023/12/29/%f0%9f%8c%90-navigating-the-decentralized-cosmos-ipfs-storage-with-helia-implementation-in-node-js/"
+              }
+            />
             <Article
               title={"What is Mining in Blockchain?"}
               img={articlePic3}

@@ -8,6 +8,7 @@ import project1 from "../../public/images/projects/CryptoWatchers.png";
 import project2 from "../../public/images/projects/WikiChain.png";
 import project3 from "../../public/images/projects/EtherJots.png";
 import project4 from "../../public/images/projects/PUC.png";
+import project5 from "../../public/images/projects/HyperJots.png";
 import { GithubIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -129,6 +130,18 @@ const projects = () => {
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12">
+              <FeaturedProject
+                title={"HyperJots"}
+                summary={
+                  "HyperJots is a blockchain-based secure note-sharing platform built on Hyperledger Fabric. It ensures private, tamper-proof note management for organizations, leveraging ReactJS for the frontend, Node.js for the backend, and smart contracts for secure data handling."
+                }
+                link={"https://github.com/nikil-sri-shen/HyperJots"}
+                type={"Featured Project"}
+                github={"https://github.com/nikil-sri-shen/HyperJots"}
+                img={project5}
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 title={"CryptoWatchers"}
