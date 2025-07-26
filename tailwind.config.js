@@ -19,7 +19,7 @@ module.exports = {
         primaryDark: "#58E6D9", // 80,230,217
       },
       animation: {
-        "spin-slow": "spin 8s linear infinite",
+        "spin-slow": "spin 10s linear infinite",
       },
       backgroundImage: {
         circularLight:
@@ -63,6 +63,15 @@ module.exports = {
 
       xs: { max: "479px" },
       // => @media (max-width: 479px) { ... }
+    },
+    keyframes: {
+      pulseSoft: {
+        "0%, 100%": { transform: "scale(1)" },
+        "50%": { transform: "scale(1.15)" },
+      },
+    },
+    animation: {
+      pulseSoft: "pulseSoft 2s ease-in-out infinite",
     },
   },
   plugins: [],
